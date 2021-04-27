@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>title</key>
+		<string>Laws of UX</string>
+		<key>author</key>
+		<string>Jon Yablonski</string>
+		<key>attitude</key>
+		<string>like</string>
+		<key>review</key>
+		<string>Must read</string>
+		<key>thumbnailPic</key>
+		<string>cat</string>
+		<key>userName</key>
+		<string>Katya Z.</string>
+		<key>link</key>
+		<string>https://www.amazon.com/Laws-UX-Psychology-Products-Services/dp/149205531X</string>
+		<key>rating</key>
+		<integer>1</integer>
+		<key>bestCharacteristics</key>
+		<string>Cute</string>
+		<key>longitude</key>
+		<real>37.9593</real>
+		<key>latitude</key>
+		<real>-121.768</real>
+	</dict>
+</array>
+</plist>
