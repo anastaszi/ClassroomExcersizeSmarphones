@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D0B6D762651F42800E930D0 /* WeatherNetworkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B6D752651F42800E930D0 /* WeatherNetworkModel.swift */; };
+		5D0B6D7C2651F8FC00E930D0 /* WeatherNetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B6D7B2651F8FC00E930D0 /* WeatherNetworkResponse.swift */; };
+		5D0B6D822652176300E930D0 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B6D812652176300E930D0 /* NetworkErrors.swift */; };
+		5D0B6D882652214100E930D0 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B6D872652214100E930D0 /* ActivityIndicator.swift */; };
+		5D0B6D8E265222EC00E930D0 /* TestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B6D8D265222EC00E930D0 /* TestImage.swift */; };
+		5D0B6D942652237500E930D0 /* AsyncRemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B6D932652237500E930D0 /* AsyncRemoteImage.swift */; };
+		5D0B6D9A2652239B00E930D0 /* AsyncImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0B6D992652239B00E930D0 /* AsyncImageCache.swift */; };
 		5D970AE72634A23C007D5806 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D970AE62634A23C007D5806 /* Tests_iOS.swift */; };
 		5D970AF22634A23C007D5806 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D970AF12634A23C007D5806 /* Tests_macOS.swift */; };
 		5D970AF42634A23C007D5806 /* ClassRoomExcersizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D970ACB2634A239007D5806 /* ClassRoomExcersizeApp.swift */; };
@@ -52,6 +59,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D0B6D752651F42800E930D0 /* WeatherNetworkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkModel.swift; sourceTree = "<group>"; };
+		5D0B6D7B2651F8FC00E930D0 /* WeatherNetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherNetworkResponse.swift; sourceTree = "<group>"; };
+		5D0B6D812652176300E930D0 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		5D0B6D872652214100E930D0 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		5D0B6D8D265222EC00E930D0 /* TestImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImage.swift; sourceTree = "<group>"; };
+		5D0B6D932652237500E930D0 /* AsyncRemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncRemoteImage.swift; sourceTree = "<group>"; };
+		5D0B6D992652239B00E930D0 /* AsyncImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImageCache.swift; sourceTree = "<group>"; };
+		5D0B6E4C26539BBD00E930D0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5D970ACB2634A239007D5806 /* ClassRoomExcersizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassRoomExcersizeApp.swift; sourceTree = "<group>"; };
 		5D970ACC2634A239007D5806 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D970ACD2634A23C007D5806 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -117,9 +132,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D0B6D742651F40000E930D0 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				5D0B6D752651F42800E930D0 /* WeatherNetworkModel.swift */,
+				5D0B6D7B2651F8FC00E930D0 /* WeatherNetworkResponse.swift */,
+				5D0B6D812652176300E930D0 /* NetworkErrors.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 		5D970AC52634A238007D5806 = {
 			isa = PBXGroup;
 			children = (
+				5D0B6E4C26539BBD00E930D0 /* README.md */,
 				5D970ACA2634A239007D5806 /* Shared */,
 				5D970AD42634A23C007D5806 /* iOS */,
 				5D970ADB2634A23C007D5806 /* macOS */,
@@ -132,17 +158,22 @@
 		5D970ACA2634A239007D5806 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				5D0B6D742651F40000E930D0 /* Networking */,
 				5DED9F1C2637EF19009322DD /* Image */,
 				5DED9F152637E955009322DD /* New Group */,
 				5D970B3526364963007D5806 /* Profile */,
 				5D970B0C2634A959007D5806 /* Model */,
 				5D970ACB2634A239007D5806 /* ClassRoomExcersizeApp.swift */,
 				5D970ACC2634A239007D5806 /* ContentView.swift */,
+				5D0B6D8D265222EC00E930D0 /* TestImage.swift */,
+				5D0B6D932652237500E930D0 /* AsyncRemoteImage.swift */,
+				5D0B6D992652239B00E930D0 /* AsyncImageCache.swift */,
 				5D970ACD2634A23C007D5806 /* Assets.xcassets */,
 				5D970B1D2634D619007D5806 /* CatDetails.swift */,
 				5D970B23263607B3007D5806 /* AddCat.swift */,
 				5D970B4626365682007D5806 /* TabedView.swift */,
 				5D970B5A2637D548007D5806 /* Location */,
+				5D0B6D872652214100E930D0 /* ActivityIndicator.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -404,19 +435,26 @@
 				5D970B3726364976007D5806 /* Profile.swift in Sources */,
 				5DED9F2A2637F5D1009322DD /* Collection.swift in Sources */,
 				5D970B1E2634D619007D5806 /* CatDetails.swift in Sources */,
+				5D0B6D7C2651F8FC00E930D0 /* WeatherNetworkResponse.swift in Sources */,
 				5DED9F242637F253009322DD /* ImagePickView.swift in Sources */,
+				5D0B6D942652237500E930D0 /* AsyncRemoteImage.swift in Sources */,
 				5D970B4D2637AEC3007D5806 /* MapView.swift in Sources */,
 				5D970B532637AFC0007D5806 /* MapModel.swift in Sources */,
 				5DED9F172637E97A009322DD /* Gestures.swift in Sources */,
+				5D0B6D9A2652239B00E930D0 /* AsyncImageCache.swift in Sources */,
 				5D970B30263646C5007D5806 /* UserData.swift in Sources */,
+				5D0B6D762651F42800E930D0 /* WeatherNetworkModel.swift in Sources */,
 				5D970B2A263627A1007D5806 /* AddCatData.swift in Sources */,
 				5D970B4726365682007D5806 /* TabedView.swift in Sources */,
 				5D970AF42634A23C007D5806 /* ClassRoomExcersizeApp.swift in Sources */,
 				5D970B602637D58E007D5806 /* LocationViewModel.swift in Sources */,
 				5D970B24263607B3007D5806 /* AddCat.swift in Sources */,
+				5D0B6D882652214100E930D0 /* ActivityIndicator.swift in Sources */,
 				5DED9F1E2637EF37009322DD /* ImagePicker.swift in Sources */,
+				5D0B6D822652176300E930D0 /* NetworkErrors.swift in Sources */,
 				5D970B0E2634AA3B007D5806 /* MyCats.swift in Sources */,
 				5DED9F302638895E009322DD /* CurrentLocationMapView.swift in Sources */,
+				5D0B6D8E265222EC00E930D0 /* TestImage.swift in Sources */,
 				5D970B4126364B6A007D5806 /* ProfileEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
